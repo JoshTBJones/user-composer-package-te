@@ -1,0 +1,22 @@
+{
+    "name": "joshua-jones/user-service",
+    "description": "A package for creating users",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JoshuaJones\\UserService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joshua Jones"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
